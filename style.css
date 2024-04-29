@@ -1,0 +1,33 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#mynavbar a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contact form {
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0, 255, 0, .5), -1px -1px 5px rgba(255, 255, 255, .5);
+    border-radius: 30px;
+}
